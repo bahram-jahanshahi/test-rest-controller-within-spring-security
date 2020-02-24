@@ -11,7 +11,7 @@
     <groupId>ir.afarinesh.mctab</groupId>
     <artifactId>test-rest-controller-whitin-spring-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>test-rest-controller-whitin-spring-security</name>
+    <name>test-rest-controller-within-spring-security</name>
     <description>Demo project for Spring Boot Test Rest Controller within Spring security</description>
 
     <properties>
@@ -35,6 +35,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

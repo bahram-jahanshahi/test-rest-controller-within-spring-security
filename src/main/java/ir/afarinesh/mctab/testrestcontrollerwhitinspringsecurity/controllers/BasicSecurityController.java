@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/security/basic")
 public class BasicSecurityController {
     @GetMapping("/login")
-    private Boolean login(String username, String password) {
+    private Boolean login() {
+
         return true;
     }
 }

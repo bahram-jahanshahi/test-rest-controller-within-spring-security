@@ -2,6 +2,7 @@ package ir.afarinesh.mctab.testrestcontrollerwhitinspringsecurity.core.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -28,6 +29,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .csrf().disable()
                 .authorizeRequests()
+                // .antMatchers(HttpMethod.GET, "/css/project.css").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic()
