@@ -1,6 +1,6 @@
 # Test Rest Controller and Spring Security
-This sample project is supposed to show how it is possible ti test particular rest service 
-when spring security is activated in project.
+This sample project is supposed to show how it is possible to test particular `rest service` 
+meanwhile spring security is activated in project.
 ## How to run project
 1. Run `spring boot` application.
 2. Run `StudentControllerTest` in test package.
