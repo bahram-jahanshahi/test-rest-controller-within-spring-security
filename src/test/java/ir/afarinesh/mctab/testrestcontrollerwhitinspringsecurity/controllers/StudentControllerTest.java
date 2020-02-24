@@ -1,6 +1,5 @@
 package ir.afarinesh.mctab.testrestcontrollerwhitinspringsecurity.controllers;
 
-import ir.afarinesh.mctab.testrestcontrollerwhitinspringsecurity.entities.Student;
 import ir.afarinesh.mctab.testrestcontrollerwhitinspringsecurity.usecases.commands.ListStudentCommand;
 import ir.afarinesh.mctab.testrestcontrollerwhitinspringsecurity.usecases.outcomes.ListStudentOutcome;
 import org.junit.jupiter.api.Test;
